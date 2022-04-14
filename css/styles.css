@@ -1,0 +1,69 @@
+@import 'https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap';
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: #d6e2f0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.qr-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  padding: 15px;
+  gap: 10px;
+  height: 460px;
+  width: 300px;
+  background-color: white;
+  border-radius: 15px;
+}
+.qr-section img {
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+  max-width: 100%;
+  border-radius: 12px;
+}
+.qr-section .text-container {
+  padding: 0px 6px 10px 6px;
+}
+.qr-section .text-container h3 {
+  color: #1f3251;
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 2.2em;
+}
+.qr-section .text-container p {
+  padding: 10px;
+  color: #1f3251;
+  font-weight: 400;
+  font-size: 1.5em;
+}
